@@ -121,12 +121,14 @@ body {
     padding-bottom: 200px;
 }
 .hero-title {
+    width: 696px;
     color: var(--secondary-text-color);
     letter-spacing: 0.06em;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
     margin-bottom: 30px;
+    margin-left: 452px;
 }
 .hero-button {
     display: inline-block;
@@ -179,6 +181,7 @@ body {
 }
 .pluses-item {
     width: 270px;
+    border-radius: 4px;
 }
 .pluses-item:not(:last-child) {
     margin-right: 30px;
@@ -189,13 +192,12 @@ body {
     line-height: 1.7;
 }
 .pluses-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
     margin-bottom: 30px;
+    padding-top: 25px;
 }
 .work {
     padding-top: 0;
@@ -227,11 +229,34 @@ body {
     text-align: center;
 }
 .workers-text {
-    margin-bottom: 30px;
+    margin-bottom: 16px;
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
+}
+.social {
+    justify-content: center;
+    margin-bottom: 30px;  
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    fill: red;
+    padding: 12px;
+    border-radius: 50%;
+}
+.social-item:not(:last-child) {
+    margin-right: 10px;
+}
+.social-links:hover,
+.social-links:focus {
+    fill: var(--secondary-text-color);
+    background-color: var(--accent-color);
+
 }
 .footer {
     background-color: var(--secondary-background-color);
